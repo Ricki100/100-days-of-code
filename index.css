@@ -1,0 +1,78 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #2a282c; }
+
+body {
+  background: url("background.svg") no-repeat;
+  background-position: top right;
+  position: fixed;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto; }
+
+svg {
+  width: 300px;
+  -ms-flex-item-align: center;
+  align-self: center;
+  justify-self: center;
+  margin-left: 200px;
+  margin-top: 200px; }
+
+@-webkit-keyframes yourAnimation {
+  0% {
+    -webkit-transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
+    opacity: 0; }
+  100% {
+    -webkit-transform: rotate(0) translateX(100px);
+    transform: rotate(0) translateX(100px);
+    opacity: 1; } }
+
+@keyframes yourAnimation {
+  0% {
+    -webkit-transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
+    opacity: 0; }
+  100% {
+    -webkit-transform: rotate(0) translateX(100px);
+    transform: rotate(0) translateX(100px);
+    opacity: 1; } }
+
+#browser {
+  opacity: 0; }
+
+#browser:hover {
+  -webkit-animation: yourAnimation 1s infinite 0s alternate;
+  animation: yourAnimation 1s infinite 0s alternate; }
+
+.st0 {
+  display: none; }
+
+.st1 {
+  display: inline;
+  fill: #2A282C; }
+
+.st2 {
+  display: inline;
+  fill: #3B393D; }
+
+.st3 {
+  fill: #FAFAFA; }
+
+.st4 {
+  fill: #43566A; }
+
+.st5 {
+  fill: #7EA2C8; }
+
+.st6 {
+  fill: #46596E; }
+
+.st7 {
+  display: none;
+  fill: #FFFFFF; }
+
+.st8 {
+  fill: #8A8A8A; }
